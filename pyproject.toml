@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "pydanticai-researcher"
+version = "0.1.0"
+description = ""
+authors = ["Evan Reid <evan@reids.us>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pydantic-ai = "^0.0.12"
+aiohttp = "^3.9.3"
+beautifulsoup4 = "^4.12.3"
+markdown = "^3.5.2"
+pydantic = "^2.6.1"
+asyncio = "^3.4.3"
+python-markdown-math = "^0.8"
+html2text = "^2020.1.16"
+markdownify = "^0.11.6"
+exa-py = "^1.7.0"
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
