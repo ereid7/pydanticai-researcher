@@ -18,6 +18,8 @@ html2text = "^2020.1.16"
 markdownify = "^0.11.6"
 exa-py = "^1.7.0"
 python-dotenv = "^1.0.1"
+crawlee = "^0.4.5"
+playwright = "^1.49.0"
 
 [build-system]
 requires = ["poetry-core"]
